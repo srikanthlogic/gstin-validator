@@ -1,0 +1,24 @@
+{
+  "name": "gstin-validator",
+  "version": "0.1.0",
+  "description": "Module to validate GSTIN",
+  "main": "index.js",
+  "scripts": {
+	"test": "mocha src/index.test.js"
+  },
+  "repository": {
+	"type": "git",
+	"url": "git+https://gitlab.com/srikanthlogic/gstin-validator.git"
+  },
+  "keywords": [
+	"gstin",
+	"gstn",
+	"india"
+  ],
+  "author": "Srikanth Lakshmanan",
+  "license": "MIT",
+  "bugs": {
+	"url": "https://gitlab.com/srikanthlogic/gstin-validator/issues"
+  },
+  "homepage": "https://gitlab.com/srikanthlogic/gstin-validator#README"
+}
