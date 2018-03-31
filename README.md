@@ -9,7 +9,7 @@
 ## Use
 
     var validator = require('gstin-validator');
-    validator.isValidNumber('12AAACI1681G1Z0');
+    validator.isValidGSTNumber('12AAACI1681G1Z0');
 
 ## Test
 
