@@ -1,0 +1,8 @@
+image: node:latest
+
+all_tests:
+    script:
+        - npm install
+        - node ./src/index.test.js
+
+
