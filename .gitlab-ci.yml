@@ -1,8 +1,10 @@
 image: node:latest
 
+cache:
+  paths:
+  - node_modules/
+
 all_tests:
-    script:
-        - npm install
-        - node ./src/index.test.js
-
-
+  script:
+   - npm install
+   - node ./src/index.test.js
