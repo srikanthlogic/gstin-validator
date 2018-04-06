@@ -2,7 +2,7 @@
   "name": "gstin-validator",
   "version": "0.1.1",
   "description": "Module to validate GSTIN",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
 	"test": "mocha src/index.test.js"
   },
