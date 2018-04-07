@@ -96,7 +96,7 @@ function isValidGSTNumber(gstin) {
 
     let state = states.find(o => o.state_code === gstin.slice(0, 2));
 
-	var info_msg = "The GSTIN " + gstin + " is entity #" + gstin.slice(12,13) + " belonging to " + panTypes.find(o => o.code === gstin[6]).pan_type + " whose PAN is " + gstin.slice(2,12) + " registered in " + state.state_name + " (" + state.state_shortcode + ")";
+	var info_msg = "The GSTIN " + gstin + " is entity #" + gstin.slice(12,13) + " belonging to " + panTypes.find(o => o.code === gstin[5]).pan_type + " whose PAN is " + gstin.slice(2,12) + " registered in " + state.state_name + " (" + state.state_shortcode + ")";
 
 	return info_msg;
   }
