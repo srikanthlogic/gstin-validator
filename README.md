@@ -3,6 +3,8 @@
 * Validates GSTIN number for length (15 digits), format (State code, PAN, Entity Number, Z, Checksum) and checksum as per the algorithm published at [GSTN portal](http://developer.gstsystem.co.in/pages/apiportal/data/gsp/download/GSTIN_Validation_SampleCode.zip)
 
 ![build](https://gitlab.com/srikanthlogic/gstin-validator/badges/master/build.svg)
+![coverage](https://gitlab.com/srikanthlogic/gstin-validator/badges/master/coverage.svg?job=coverage)
+
 
 ## Installation 
 

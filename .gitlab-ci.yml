@@ -9,4 +9,4 @@ all_tests:
    - npm install
    - npm test
   coverage:
-   - npm test-coverage
+   - npm run test-coverage
