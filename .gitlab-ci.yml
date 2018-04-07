@@ -7,6 +7,4 @@ cache:
 all_tests:
   script:
    - npm install
-   - npm test
-  coverage:
    - npm run test-coverage
