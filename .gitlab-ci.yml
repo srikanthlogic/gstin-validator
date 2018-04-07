@@ -7,4 +7,4 @@ cache:
 all_tests:
   script:
    - npm install
-   - node ./src/index.test.js
+   - npm run test-coverage
