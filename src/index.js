@@ -118,5 +118,5 @@ module.exports = {
     }
   },
 
-  get_GSTIN_Info: getInfo
+  getGSTINInfo: getInfo
 };
