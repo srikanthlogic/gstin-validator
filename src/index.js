@@ -94,10 +94,9 @@ function isValidGSTNumber(gstin) {
     if (!isValidGSTNumber(gstin))
       return 'Invalid GSTIN';
 
-    var state = states.find(o => o.state_code === gstin.slice(0, 2));
-	var info_msg = "The GSTIN " + gstin + " is entity #" + parseInt(gstin.slice(12,13),36) + " belonging to " + panTypes.find(o => o.code === gstin[5]).pan_type + " whose PAN is " + gstin.slice(2,12) + " registered in " + state.state_name + " (" + state.state_shortcode + ")";
-
-	return info_msg;
+    var state = states.find(function (o) { return o.state_code === gstin.slice(0, 2); } );
+    var info_msg = "The GSTIN " + gstin + " is entity #" + parseInt(gstin.slice(12,13),36) + " belonging to " + panTypes.find(function (o) { return o.code === gstin[5] }).pan_type + " whose PAN is " + gstin.slice(2,12) + " registered in " + state.state_name + " (" + state.state_shortcode + ")";
+    return info_msg;
   }
 
 module.exports = {
