@@ -25,7 +25,7 @@ function calcCheckSum(gstin) {
 
 function validatePattern(gstin) {
   'use strict';
-  var gstinRegexPattern = /^([0-2][0-9]|[3][0-7])[A-Z]{3}[ABCFGHLJPTK][A-Z]\d{4}[A-Z][A-Z0-9][Z][A-Z0-9]$/;
+  var gstinRegexPattern = /^([0-2][0-9]|[3][0-8])[A-Z]{3}[ABCFGHLJPTK][A-Z]\d{4}[A-Z][A-Z0-9][Z][A-Z0-9]$/;
   return gstinRegexPattern.test(gstin); // Regex validation result GSTIN of 15 digits.
 }
 
@@ -60,6 +60,7 @@ function isValidGSTNumber(gstin) {
       {state_name: 'Jharkhand', state_code: '20', state_shortcode: 'JH'},
       {state_name: 'Karnataka', state_code: '29', state_shortcode: 'KA'},
       {state_name: 'Kerala', state_code: '32', state_shortcode: 'KL'},
+      {state_name: 'Ladakh', state_code: '38', state_shortcode: 'LA'},
       {state_name: 'Lakshadweep Islands', state_code: '31', state_shortcode: 'LD'},
       {state_name: 'Madhya Pradesh', state_code: '23', state_shortcode: 'MP'},
       {state_name: 'Maharashtra', state_code: '27', state_shortcode: 'MH'},
